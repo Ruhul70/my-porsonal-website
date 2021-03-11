@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.name h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: tomato;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-top: 8%;
+    
+}
+.half-width img{
+    margin-left: -120px;
+}
+
+   
+
+
+.name{
+    margin-left: 200px;
+    margin-top: 10%;
+}
+
+.half-width img{
+ width: 100%;
+}
+.top-banner{
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+section{
+    height: 100vh;
+    width: 100%;
+}
+.link-button{
+    padding: 10px 20px;
+    background-color: tomato;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    
+}
+/* step1 */
+
+
+.biography{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.biography .half-width img{
+    margin-left: 7%;
+}
+
+.bio{
+    margin-left: 7%;
+    margin-top: 8%;
+
+}
+.bio h2{
+    padding: 10px 0px;
+}
+/* step2 */
+
+.latest-work h1{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.work img{
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.latest-work{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* step3 */
+
+
+.last-step .what h2{
+    font-weight: 700;
+    font-size: 40px;
+
+
+}
+.last-step .what{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.last-step .bruce{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-weight: bold;
+   
+
+}
+.bruce h4{
+    color: #aa6811;
+    padding-top: 10px;
+
+}
+.bruce h3{
+    font-size: 30px;
+}
+.last-step{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last-step .gmail{
+    background-color:#dd7777;
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    margin-top:70px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.gmail h4{
+    padding-top: 35px;
+}
+.gmail h2{
+    margin-top: 20px;
+}
+.last-step p{
+    text-align: center;
+    margin-top: 70px;
+}
